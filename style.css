@@ -84,13 +84,18 @@
     filter: grayscale(0.5) sepia(0.5);
 }
 
-
-
-
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: border-radius 2s,  filter  2s, transform 2s;
 }
+
+.ex-9-img:hover {
+    border-radius: 15px;    
+    filter: grayscale(0.5) sepia(0.5);
+    transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
