@@ -67,6 +67,13 @@
     filter: grayscale(1);
 }
 
+.ex-7-img {
+    transition: filter 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1) sepia(0.3);
+}
 
 .ex-9-img {
     margin: 50px 100px;
